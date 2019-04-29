@@ -17,10 +17,12 @@ import {
 } from "primeng/primeng";
 import {TableModule} from "primeng/table";
 import {CommonModule} from "@angular/common";
+import { SampleComponent } from './sample/sample.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SampleComponent
   ],
   imports: [
     BrowserModule,
