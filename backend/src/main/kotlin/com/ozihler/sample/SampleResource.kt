@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController
 @CrossOrigin
 @RestController
 class SampleResource {
-    @GetMapping("/sample")
+    @GetMapping("/api/sample")
     fun greeting(): Greeting = Greeting("Hello World")
 }
