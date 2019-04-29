@@ -1,0 +1,2 @@
+rootProject.name = 'kotlin-angular-template'
+include 'frontend', 'backend'
