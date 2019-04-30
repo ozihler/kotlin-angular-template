@@ -16,7 +16,7 @@ export class SampleService {
   }
 
   public getGreeting(): Observable<Greeting> {
-    return this.http.get<GreetingDto>(`${environment.baseUrl}api/sample`)
+    return this.http.get<GreetingDto>(`${environment.baseUrl}sample`)
       .pipe(
         map(dto => {
           return new Greeting(dto.message)
