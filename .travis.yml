@@ -9,9 +9,9 @@ jobs:
     - stage: test
       script:
     - ./gradlew check
-    - stage: build
-      script:
-    - ./gradlew build
+#    - stage: build
+#      script:
+#    - ./gradlew build
     - after_success:
     - bash <(curl -s https://codecov.io/bash)
 #deploy:
