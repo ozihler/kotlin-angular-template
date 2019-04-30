@@ -45,6 +45,8 @@ clean {
 }
 
 dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.4.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.4.2")
     compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version") // Required for Kotlin integration
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile('org.springframework.boot:spring-boot-starter-test')
